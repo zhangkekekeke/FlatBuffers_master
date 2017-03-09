@@ -1,0 +1,20 @@
+namespace characterke;
+table PatientList{
+	patient:[Patient];
+}
+
+table Patient{
+	id:string;
+	index:long;
+	gender:string;
+	email:string;
+	reports:[Report];
+	company:string;
+}
+
+table Report{
+	id:long;
+	name:string;
+}
+
+root_type PatientList;

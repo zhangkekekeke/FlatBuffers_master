@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FlatBuffer_master</string>
+    <string name="notfoundJson">没有找到Json文件</string>
+    <string name="notfoundFlat">没有找到FlatBuffer文件</string>
+</resources>
